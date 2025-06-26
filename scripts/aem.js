@@ -488,12 +488,8 @@ function isExternalImage(element, externalImageMarker) {
     return true;
   }
 
-  // if the element is an anchor with the href as text content and the href has
-  // an image extension, it's an external image
-  if (element.textContent.trim() === element.getAttribute('href')) {
-    const ext = getUrlExtension(element.getAttribute('href'));
-    return ext && ['jpg', 'jpeg', 'png', 'gif', 'webp'].includes(ext.toLowerCase());
-  }
+  const ext = getUrlExtension(element.getAttribute('href'));
+  return ext && ['jpg', 'jpeg', 'png', 'gif', 'webp'].includes(ext.toLowerCase());
 }
 
 /*
