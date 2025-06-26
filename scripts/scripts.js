@@ -11,6 +11,7 @@ import {
   loadSection,
   loadSections,
   loadCSS,
+  decorateExternalImages,
 } from './aem.js';
 
 /**
@@ -62,6 +63,8 @@ export function decorateMain(main) {
   // hopefully forward compatible button decoration
   decorateButtons(main);
   decorateIcons(main);
+  decorateExternalImages(main);
+  decorateExternalImages(main, '//External Image//');
   buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
