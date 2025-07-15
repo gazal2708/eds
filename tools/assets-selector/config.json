@@ -5,12 +5,6 @@
             "value": "reference"
         }
     ],
-    "blockName": [
-        {
-            "mimeType": "video/*",
-            "value": "Core Embed"
-        }
-    ],
     "blockTemplate": [
         {
             "mimeType": "video/*",
