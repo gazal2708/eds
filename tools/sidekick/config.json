@@ -8,7 +8,7 @@
             "environments": [
                 "edit"
             ],
-            "url": "https://experience.adobe.com/solutions/CQ-helix-assets-addon/static-assets/resources/asset-selector.html?rail=false",
+            "url": "https://experience.adobe.com/solutions/CQ-helix-assets-addon/static-assets/resources/asset-selector.html?extConfigUrl=https://raw.githubusercontent.com/gazal2708/eds/main/tools/assets-selector/config.json&rail=false",
            "isPalette": true,
             "includePaths": [
                 "**.docx**"
