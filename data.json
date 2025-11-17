@@ -1,0 +1,14 @@
+{
+    "title": "Welcome to My BYOM JSON→HTML Demo",
+    "subtitle": "This page is generated using Adobe’s json2html overlay",
+    "heroImage": "https://www.adobe.com/content/dam/cc/en/events/images/adobelogo.png",
+    "paragraphs": [
+      "This page demonstrates how Edge Delivery Services transforms JSON data into HTML markup automatically.",
+      "The json2html overlay reads this JSON and constructs a semantic HTML document with heading, paragraph and image tags.",
+      "You can replace or extend this JSON with your own structured content (e.g., product data, event details, blog posts)."
+    ],
+    "cta": {
+      "text": "Learn more about Bring Your Own Markup (BYOM)",
+      "url": "https://www.aem.live/developer/byom"
+    }
+  }
