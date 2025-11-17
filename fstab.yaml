@@ -1,5 +1,6 @@
 mountpoints:
   /: https://drive.google.com/drive/folders/1p7cdFmE5vuVnoxiuIV5p7BSXNNOSYrau
   /byom-demo:
-    url: "https://raw.githubusercontent.com/gazal2708/eds/main/byom-sample.html"
+    url: "https://raw.githubusercontent.com/gazal2708/eds/main/byom-sample"
     type: "markup"
+    suffix: ".html"
