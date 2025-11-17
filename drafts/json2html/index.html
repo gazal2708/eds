@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BYOM JSON2HTML Demo</title>
+    <style>
+      body { font-family: Arial, sans-serif; padding: 2em; max-width: 640px; margin: auto; }
+      img { max-width: 100%; height: auto; }
+      .cta a { background: #1473e6; color: #fff; padding: 0.5em 1em; text-decoration: none; border-radius: 4px; }
+    </style>
+  </head>
+  <body>
+    <script>
+      (async () => {
+        const srcUrl =
+          new URLSearchParams(window.location.search).get('src') ||
+          'https://raw.githubusercontent.com/gazal2708/eds/main/data.json';
+        try {
+          const response = await fetch(srcUrl);
+          const data = await response.json();
+          document.title = data.title || 'BYOM Demo';
+          document.write(`<h1>${data.title}</h1>`);
+          if (data.subtitle) document.write(`<h2>${data.subtitle}</h2>`);
+          if (data.heroImage) document.write(`<img src="${data.heroImage}" alt="hero" />`);
+          if (data.paragraphs) {
+            data.paragraphs.forEach(p => document.write(`<p>${p}</p>`));
+          }
+          if (data.cta) {
+            document.write(
+              `<div class="cta"><a href="${data.cta.url}" target="_blank">${data.cta.text}</a></div>`
+            );
+          }
+        } catch (e) {
+          document.write(`<p style="color:red;">Failed to load JSON: ${e}</p>`);
+        }
+      })();
+    </script>
+  </body>
+</html>
