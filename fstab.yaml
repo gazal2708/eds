@@ -3,4 +3,4 @@ mountpoints:
   /json2html/:
     url: https://www.aem.live/drafts/amol/json2html
     options:
-      source: https://raw.githubusercontent.com/gazal2708/eds/main/data.json
+      source: https://raw.githubusercontent.com/gazal2708/eds/refs/heads/main/data.json
