@@ -1,6 +1,6 @@
 mountpoints:
   /: https://drive.google.com/drive/folders/1p7cdFmE5vuVnoxiuIV5p7BSXNNOSYrau
   /json2html/:
-    url: "https://raw.githubusercontent.com/gazal2708/eds/main/drafts/json2html"
-    type: "markup"
-    suffix: ".html"
+  url: "https://raw.githubusercontent.com/gazal2708/eds/main/drafts/json2html"
+  type: "markup"
+  suffix: ".html"
