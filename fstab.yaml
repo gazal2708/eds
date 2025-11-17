@@ -1,5 +1,2 @@
 mountpoints:
-  /:
-    url: "https://raw.githubusercontent.com/gazal2708/eds/main/drafts/json2html/index.html"
-    type: "markup"
-    suffix: ".html"
+  /: https://raw.githubusercontent.com/gazal2708/eds/main/drafts/json2html/
