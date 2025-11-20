@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome to BYOM Demo - Edge Delivery Services</title>
+    <meta name="description" content="A complete example of Bring Your Own Markup for Adobe Edge Delivery Services" />
+    <meta name="keywords" content="BYOM, Edge Delivery, Adobe, AEM" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div>
+        <!-- Hero Block -->
+        <div class="hero">
+          <div>
+            <div>
+              <p>
+                <picture>
+                  <source type="image/webp" srcset="https://www.adobe.com/content/dam/cc/en/events/images/adobelogo.png" media="(min-width: 600px)">
+                  <img loading="eager" alt="Adobe Logo - Hero Image" src="https://www.adobe.com/content/dam/cc/en/events/images/adobelogo.png" width="1200" height="600">
+                </picture>
+              </p>
+              <h1 id="welcome-to-byom">Welcome to My BYOM Demo</h1>
+              <p>Experience the power of Bring Your Own Markup with Adobe Edge Delivery Services</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Default Content (no block class) -->
+        <h2 id="what-is-byom">What is Bring Your Own Markup?</h2>
+        <p>Edge Delivery Services is independent of the authoring tooling and supports multiple content sources. This means you could provide your own content source and publish the content from a repository you already have to AEM without having to migrate the content first.</p>
+        <p>The API that enables it is called Bring Your Own Markup (BYOM). It uses HTML as the standard data format.</p>
+        
+        <!-- Cards Block -->
+        <div class="cards">
+          <div>
+            <div>
+              <p>
+                <picture>
+                  <img loading="lazy" alt="Fast Performance" src="https://www.aem.live/icons/fast.svg" width="48" height="48">
+                </picture>
+              </p>
+              <h3 id="lightning-fast">Lightning Fast</h3>
+              <p>Edge Delivery Services delivers blazing fast performance with automatic optimization.</p>
+            </div>
+            <div>
+              <p>
+                <picture>
+                  <img loading="lazy" alt="Easy Setup" src="https://www.aem.live/icons/easy.svg" width="48" height="48">
+                </picture>
+              </p>
+              <h3 id="easy-setup">Easy Setup</h3>
+              <p>Get started quickly with minimal configuration and flexible content sources.</p>
+            </div>
+            <div>
+              <p>
+                <picture>
+                  <img loading="lazy" alt="Flexible Content" src="https://www.aem.live/icons/flexible.svg" width="48" height="48">
+                </picture>
+              </p>
+              <h3 id="flexible-content">Flexible Content</h3>
+              <p>Use any content source - SharePoint, Google Drive, or your own custom service.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Columns Block -->
+        <div class="columns">
+          <div>
+            <div>
+              <h3 id="key-features">Key Features</h3>
+              <ul>
+                <li>Semantic HTML structure</li>
+                <li>Block-based architecture</li>
+                <li>Automatic image optimization</li>
+                <li>Built-in metadata support</li>
+              </ul>
+            </div>
+            <div>
+              <h3 id="use-cases">Use Cases</h3>
+              <ul>
+                <li>Product catalogs from commerce systems</li>
+                <li>Dynamic content from CMS</li>
+                <li>Content migration without rewriting</li>
+                <li>Multi-source content aggregation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <!-- More Default Content -->
+        <h2 id="getting-started">Getting Started</h2>
+        <p>To implement BYOM, your service needs to return HTML responses that follow the Edge Delivery Services semantic structure. Each page should include:</p>
+        <ul>
+          <li><strong>Sections</strong>: Each <code>&lt;div&gt;</code> directly under <code>&lt;main&gt;</code> represents a section</li>
+          <li><strong>Blocks</strong>: Divs with class names become blocks (e.g., <code>class="hero"</code>)</li>
+          <li><strong>Default Content</strong>: Regular HTML elements without block classes</li>
+          <li><strong>Metadata</strong>: Page metadata via HTML meta tags or metadata block</li>
+        </ul>
+        
+        <!-- Fragment Block (Optional) -->
+        <div class="fragment">
+          <div>
+            <div>
+              <p><a href="/blocks/cards">View Cards Block Documentation</a></p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Metadata Block -->
+        <div class="metadata">
+          <div>
+            <div>
+              <p>Description</p>
+            </div>
+            <div>
+              <p>A complete example of Bring Your Own Markup for Adobe Edge Delivery Services with hero, cards, and columns blocks</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <p>Keywords</p>
+            </div>
+            <div>
+              <p>BYOM, Edge Delivery, Adobe, AEM, HTML, Markup</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <p>Author</p>
+            </div>
+            <div>
+              <p>Edge Delivery Services Team</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <p>Publication Date</p>
+            </div>
+            <div>
+              <p>2025-11-17</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
+
