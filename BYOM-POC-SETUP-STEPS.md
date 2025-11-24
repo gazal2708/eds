@@ -42,7 +42,7 @@ Use your Adobe LDAP credentials.
 
 ### Step 4: Configure BYOM (Browser Console)
 
-Open **browser DevTools Console** (F12) and run:
+Open **browser DevTools Console** (F12) in the admin portal login window and run:
 
 **Choose your configuration:**
 
