@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About Us - BYOM Demo</title>
+    <meta name="description" content="Learn about our BYOM implementation journey">
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div>
+        <h1 id="about-our-byom-journey">About Our BYOM Journey</h1>
+        
+        <div class="hero">
+          <div>
+            <div>
+              <h2 id="transforming-content-delivery">Transforming Content Delivery</h2>
+              <p>We've successfully implemented Bring Your Own Markup (BYOM) to serve content directly from GitHub, bypassing traditional content management systems.</p>
+            </div>
+          </div>
+        </div>
+        
+        <h2 id="our-approach">Our Approach</h2>
+        <div class="columns">
+          <div>
+            <div>
+              <h3 id="api-first">API-First Configuration</h3>
+              <p>Using the Configuration Service API, we configure content overlays through browser-based API calls, ensuring seamless authentication and rapid deployment.</p>
+            </div>
+            <div>
+              <h3 id="version-control">Version Control</h3>
+              <p>All HTML content lives in GitHub, giving us full version history, pull request workflows, and developer-friendly tooling.</p>
+            </div>
+            <div>
+              <h3 id="hybrid-model">Hybrid Content Model</h3>
+              <p>BYOM overlay allows us to keep Google Drive for certain content while serving custom HTML for specialized pages.</p>
+            </div>
+          </div>
+        </div>
+        
+        <h2 id="key-learnings">Key Learnings</h2>
+        <ul>
+          <li><strong>Browser authentication</strong> is essential - terminal-based auth tokens don't work for LDAP users</li>
+          <li><strong>Overlay reconfiguration</strong> is needed after adding new HTML files, not just code sync</li>
+          <li><strong>Preview API calls</strong> can help force immediate content updates</li>
+          <li><strong>No Google Docs required</strong> - BYOM works independently when configured as overlay</li>
+        </ul>
+        
+        <div class="metadata">
+          <div>
+            <div><p>Description</p></div>
+            <div><p>About our BYOM implementation journey and lessons learned</p></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
+
