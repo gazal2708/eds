@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Test Page - BYOM Multi-File Test</title>
+    <meta name="description" content="Testing if BYOM automatically serves multiple HTML files">
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div>
+        <h1 id="byom-multi-file-test">BYOM Multi-File Test</h1>
+        <p>This is a second HTML file to test if BYOM overlay automatically serves multiple files without additional configuration.</p>
+        
+        <h2 id="if-you-see-this">If you see this...</h2>
+        <p>Then BYOM overlay is working perfectly! Any HTML file you add to your GitHub repo will be automatically served at the matching URL path.</p>
+        
+        <div class="columns">
+          <div>
+            <div>
+              <h3 id="how-it-works">How It Works</h3>
+              <p>When you visit <code>/test-page</code>, EDS checks:</p>
+              <ol>
+                <li>GitHub for <code>test-page.html</code> (BYOM overlay)</li>
+                <li>If found: serves the HTML ✅</li>
+                <li>If not found: falls back to Google Drive</li>
+              </ol>
+            </div>
+            <div>
+              <h3 id="no-config-needed">No Config Needed</h3>
+              <p>You don't need to:</p>
+              <ul>
+                <li>Update the overlay configuration</li>
+                <li>Create matching Google Docs</li>
+                <li>Run any additional setup</li>
+              </ul>
+              <p>Just push HTML files and they work!</p>
+            </div>
+          </div>
+        </div>
+        
+        <h2 id="success">🎉 Success!</h2>
+        <p>BYOM overlay is serving multiple files automatically. You can create as many HTML files as you need!</p>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
+
