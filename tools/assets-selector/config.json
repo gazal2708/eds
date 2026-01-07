@@ -3,6 +3,10 @@
         {
             "mimeType": "image/*",
             "value": "use-alt-text"
+        },
+        {
+            "mimeType": "audio/*",
+            "value": "use-alt-text"
         }
     ],
     "blockTemplate": [
