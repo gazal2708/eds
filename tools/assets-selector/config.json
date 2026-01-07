@@ -1,7 +1,11 @@
 {
     "copyMode": [
         {
-            "mimeType": "video/*",
+            "mimeType": "audio/*",
+            "value": "use-alt-text"
+        },
+        {
+            "mimeType": "image/*",
             "value": "use-alt-text"
         }
     ],
