@@ -2,11 +2,11 @@
     "copyMode": [
         {
             "mimeType": "audio/*",
-            "value": "use-alt-text"
+            "value": "reference"
         },
         {
             "mimeType": "image/*",
-            "value": "use-alt-text"
+            "value": "reference"
         }
     ],
     "blockTemplate": [
