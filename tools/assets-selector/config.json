@@ -1,4 +1,7 @@
 {
+    "assetDomainMapping": {
+    "delivery-p66302-e574366.adobeaemcloud.com": "assets.dynamicmedia.adobe.com"
+  },
     "copyMode": [
         {
             "mimeType": "audio/*",
