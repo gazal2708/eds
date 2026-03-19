@@ -6,7 +6,7 @@
         },
         {
             "mimeType": "image/*",
-            "value": "use-alt-text"
+            "value": "reference"
         }
     ],
     "blockTemplate": [
