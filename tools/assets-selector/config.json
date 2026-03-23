@@ -26,6 +26,25 @@
                     "columns": 3
                 }
             ]
+        },
+        {
+            "header": "Approval Status",
+            "groupKey": "ApprovalStatusGroup",
+            "fields": [
+                {
+                    "element": "checkbox",
+                    "name": "dam:assetStatus",
+                    "defaultValue": ["approved"],
+                    "columns": 1,
+                    "orientation": "horizontal",
+                    "options": [
+                        {
+                            "label": "Approved",
+                            "value": "approved"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
