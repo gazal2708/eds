@@ -15,36 +15,62 @@
             "value": "<table border='1' style=\"width:100%\">\n  <tr>\n        <td style=\"background-color:#2986cc;color:#fff\">${blockName}</td>\n      </tr>\n      <tr>\n        <td>\n        <img src=\"${posterUrl}\" alt=\"${name}\">\n        <br/>\n        <a href=\"${videoUrl}\">${name}</a>\n        </td>\n      </tr>   </table>"
         }
     ],
-    "filterSchema": [
+    "filterSchemaMapping": {
+      "author-p166604-e1781313.adobeaemcloud.com": [
         {
-            "header": "Assets Tags",
-            "groupKey": "AssetTagsGroup",
-            "fields": [
+          "fields": [
+            {
+              "defaultValue": ["image/*"],
+              "element": "checkbox",
+              "name": "type",
+              "options": [
                 {
-                    "element": "taggroup",
-                    "name": "property=metadata.application.xcm:keywords.id",
-                    "columns": 3
+                  "label": "Image",
+                  "readOnly": true,
+                  "value": "image/*"
                 }
-            ]
+              ]
+            }
+          ],
+          "groupKey": "FileTypeGroup",
+          "header": "File Type"
         },
         {
-            "header": "Approval Status",
-            "groupKey": "ApprovalStatusGroup",
-            "fields": [
+          "fields": [
+            {
+              "defaultValue": ["dam:assetStatus==approved"],
+              "element": "radiogroup",
+              "name": "property",
+              "options": [
                 {
-                    "element": "checkbox",
-                    "name": "dam:assetStatus",
-                    "defaultValue": ["approved"],
-                    "columns": 1,
-                    "orientation": "horizontal",
-                    "options": [
-                        {
-                            "label": "Approved",
-                            "value": "approved"
-                        }
-                    ]
+                  "label": "Approved",
+                  "value": "dam:assetStatus==approved"
                 }
-            ]
+              ],
+              "readOnly": true
+            }
+          ],
+          "groupKey": "StatusGroup",
+          "header": "Approval Status"
+        },
+        {
+          "fields": [
+            {
+              "columns": 3,
+              "defaultValue": ["arena"],
+              "element": "taggroup",
+              "name": "property=xcm:keywords.id=",
+              "options": [
+                {
+                  "label": "arena",
+                  "value": "arena"
+                }
+              ]
+            }
+          ],
+          "groupKey": "AssetTagsGroup",
+          "header": "Assets Tags"
         }
-    ]
+      ],
+    },
 }
