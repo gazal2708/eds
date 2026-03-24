@@ -1,5 +1,5 @@
 {
-    "environment": "STAGE",
+    "env": "STAGE",
     "copyMode": [
         {
             "mimeType": "audio/*",
