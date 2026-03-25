@@ -1,12 +1,4 @@
 {
-    "repoNames": [
-      "delivery-p166604-e1781313.adobeaemcloud.com",
-      "author-p166604-e1781313.adobeaemcloud.com"
-    ],
-   "aemTierType": [
-        "delivery",
-        "author"
-    ],
     "copyMode": [
         {
             "mimeType": "audio/*",
@@ -24,24 +16,6 @@
         }
     ],
         "filterSchema": [
-        {
-          "fields": [
-            {
-              "defaultValue": ["image/*"],
-              "element": "checkbox",
-              "name": "type",
-              "options": [
-                {
-                  "label": "Image",
-                  "readOnly": true,
-                  "value": "image/*"
-                }
-              ]
-            }
-          ],
-          "groupKey": "FileTypeGroup",
-          "header": "File Type"
-        },
         {
           "fields": [
             {
