@@ -1,5 +1,12 @@
 {
-    "env": "STAGE",
+    "repoNames": [
+      "delivery-p166604-e1781313.adobeaemcloud.com",
+      "author-p166604-e1781313.adobeaemcloud.com"
+    ],
+   "aemTierType": [
+        "delivery",
+        "author"
+    ],
     "copyMode": [
         {
             "mimeType": "audio/*",
