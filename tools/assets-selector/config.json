@@ -25,11 +25,6 @@
       "groupKey": "AssetTagsGroup",
       "header": "Assets Tags"
     },
-    "assetDomainMapping": {
-    	  "delivery-p66302-e574366.adobeaemcloud.com":"mediapreprod.store.testdomain.com",
-       "adobe.scene7.com":"aadeded.store.com",
-      "delivery-p166604-e1781313.adobeaemcloud.com":"eudjeniddkdneek.store.com"
- 	  },
     {
       "fields": [
         {
