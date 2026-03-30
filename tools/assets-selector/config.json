@@ -38,7 +38,6 @@
               "value": "metadata.application.dam:assetStatus==approved"
             }
           ],
-          "readOnly": true
         }
       ],
       "groupKey": "StatusGroup",
