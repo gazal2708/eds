@@ -29,7 +29,7 @@
     {
       "fields": [
         {
-          "defaultValue": ["metadata.application.dam:assetStatus==approved"],
+          "defaultValue": ["dam:assetStatus==approved"],
           "element": "radiogroup",
           "name": "property",
           "options": [
