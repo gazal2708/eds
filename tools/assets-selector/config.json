@@ -25,6 +25,24 @@
       ],
       "groupKey": "AssetTagsGroup",
       "header": "Assets Tags"
+    },
+    {
+      "fields": [
+        {
+          "defaultValue": ["metadata.application.dam:assetStatus==approved"],
+          "element": "radiogroup",
+          "name": "property",
+          "options": [
+            {
+              "label": "Approved",
+              "value": "metadata.application.dam:assetStatus==approved"
+            }
+          ],
+          "readOnly": true
+        }
+      ],
+      "groupKey": "StatusGroup",
+      "header": "Approval Status"
     }
   ]
 }
