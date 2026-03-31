@@ -9,5 +9,39 @@
       "mimeType": "video/*",
       "value": "<table border='1' style=\"width:100%\">\n  <tr>\n        <td style=\"background-color:#2986cc;color:#fff\">${blockName}</td>\n      </tr>\n      <tr>\n        <td>\n        <img src=\"${posterUrl}\" alt=\"${name}\">\n        <br/>\n        <a href=\"${videoUrl}\">${name}</a>\n        </td>\n      </tr>   </table>"
     }
+  ],
+  "filterSchema": [
+    {
+      "fields": [
+        {
+          "columns": 3,
+          "defaultValue": ["arena"],
+          "element": "taggroup",
+          "name": "property=xcm:keywords.id=",
+          "options": [
+            { "label": "Demo", "value": "demo" }
+          ]
+        }
+      ],
+      "groupKey": "AssetTagsGroup",
+      "header": "Assets Tags"
+    },
+    {
+      "fields": [
+        {
+          "defaultValue": ["metadata.application.dam:assetStatus==approved"],
+          "element": "radiogroup",
+          "name": "property",
+          "options": [
+            {
+              "label": "Approved",
+              "value": "metadata.application.dam:assetStatus==approved"
+            }
+          ],
+        }
+      ],
+      "groupKey": "StatusGroup",
+      "header": "Approval Status"
+    }
   ]
 }
