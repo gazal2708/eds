@@ -29,13 +29,13 @@
     {
       "fields": [
         {
-          "defaultValue": ["metadata.application.dam:status==approved"],
+          "defaultValue": ["metadata.application.dam:assetStatus==rejected"],
           "element": "radiogroup",
           "name": "property",
           "options": [
             {
-              "label": "Approved",
-              "value": "metadata.application.dam:status==approved"
+              "label": "Rejected",
+              "value": "metadata.application.dam:assetStatus==rejected"
             }
           ],
            "readOnly": true
