@@ -34,7 +34,7 @@
           "name": "property",
           "options": [
             {
-              "label": "Rejected",
+              "label": "Approved",
               "value": "dam:assetStatus==approved"
             }
           ],
